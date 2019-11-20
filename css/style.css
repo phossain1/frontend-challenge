@@ -1,0 +1,147 @@
+, *:before, *:after {   box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #bfbfbf
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+nav h1 {
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  float: right;
+  margin-left: 97px;
+  margin-right: 97px;
+}
+
+.arrow-left {
+  display: inline-block;
+  float: left;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.statusbar {
+  width: 100%;
+  background-image: url ('./images/statusbar.png');
+}
+
+.map {
+  background-image: url ('./images/map.png');
+}
+
+.black-bar {
+  background-color: black;
+  color: white;
+  width: 375px;
+  height: 30px;
+}
+
+.black-bar li {
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.home {
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.eta {
+  padding-right: 80px;
+}
+
+.fare {
+  padding-right: 20px;
+}
+
+.container {
+  width: 375px;
+  height: 667px;
+  margin: auto;
+  background-color: white;
+  overflow: scroll;
+}
+
+.arrow-right {
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.fa-chevron-right {
+  display: inline-block;
+}
+
+.direction2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #E5E5E5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.direction2:hover {background-color:#B5B3B5;}
+
+.direction {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #E5E5E5;
+}
+
+.direction:hover {background-color:#B5B3B5;}
+
+.bus-information {
+  padding-left: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.frequency {
+  margin-right: 45px;
+}
+
+.frequency1 {
+  margin-right: 50px;
+}
+
+
+.bus-information h1 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.bus-information li{
+  display: inline-block;
+}
+
+.bus-number {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: red;
+}
+
+.direction1:hover {background-color:#B5B3B5;}
+
+
+@media screen and (min-width: 375px) {
+    width: 375px;
+    height: 667px;
+}
