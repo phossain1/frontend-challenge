@@ -6,50 +6,144 @@
     <title>css frontend challenge</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <section class="container">
-      <nav>
-        <h1>Routes</h1>
-        <div class="arrow-left">
-          <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
-        </div>
-      </nav>
-      <div class="direction">
-        <div class="heading">
-          <div class="bus information">
-            <h1>Eastbound</h1>
-            <h3>Line Destination Frequency</h3>
-            <h2>60 Randolph/Harbor Dr</h2>
-            <h2>124 Navy Pier</h2>
+      <div class="statusbar">
+        <img src="./images/statusbar.png" class="statusbar" alt="status bar">
       </div>
+      <nav>
+      <div class="arrow-left">
+        <i class="fa fa-chevron-left fa-lg"></i>
+      </div>
+        <h1>Washington and State</h1>
+      </nav>
+      <img src="./images/map.png" class ="map" alt="map">
+      <div class="black-bar">
+        <ul>
+          <li class="home">Home</li>
+          <li class="eta">57 minutes</li>
+          <li class="fare">$4.00</li>
+        </ul>
+      </div>
+      <div class="direction2">
+        <div class="bus-information">
+          <h1>Eastbound</h1>
+          <ul>
+            <li class="bus-number">60</li>
+            <li class="destination"> - Randolph/Harbor Dr</li>
+            <div class="arrow-right">
+              <i class="fa fa-chevron-right fa-lg"></i>
+            </div>
+            <li class="frequency">9:50 am, 9:55 am, 10:00 am</li>
+          </ul>
         </div>
-          </div>
+      </div>
       <div class="direction">
-          <div class="heading">
+        <div class="bus-information">
+          <h1>Eastbound</h1>
+            <ul>
+              <li class="bus-number">124</li>
+              <li class="destination"> - Navy Pier</li>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right fa-lg"></i>
+              </div>
+              <li class="frequency">10:00 am, 10:15 am, 10:30 am</li>
+            </ul>
+        </div>
+      </div>
+      <div class="direction">
+          <div class="bus-information">
             <h1>Northbound</h1>
-            <h3>Line Destination Frequency</h3>
+              <ul>
+                <li class="bus-number">151</li>
+                <li class="destination"> - Devon/Clark</li>
+                <div class="arrow-right">
+                  <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+                <li class="frequency">10:05 am, 10:21 am, 10:37 am</li>
+              </ul>
+            </div>
           </div>
-        </div>
       <div class="direction">
-          <div class="heading">
+          <div class="bus-information">
             <h1>Southbound</h1>
-            <h3>Line Destination Frequency</h3>
-          </div>
-        </div>
+              <ul>
+                <li class="bus-number">J14</li>
+                <li class="destination"> - 103rd/Stony Island</li>
+                <div class="arrow-right">
+                  <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+                <li class="frequency">9:55 am, 10:10 am, 10:25 am</li>
+            </ul>
+            </div>
+            </div>
       <div class="direction">
-          <div class="heading">
+        <div class="bus-information">
+          <h1>Southbound</h1>
+            <ul>
+              <li class="bus-number">124</li>
+              <li class="destination"> - Navy Pier</li>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right fa-lg"></i>
+              </div>
+              <li class="frequency">10:00 am, 10:15 am, 10:30 am</li>
+            </ul>
+            </div>
+            </div>
+      <div class="direction">
+          <div class="bus-information">
             <h1>Reroute</h1>
-            <h3>Line Destination Frequency</h3>
+              <ul>
+                <li class="bus-number">6x</li>
+                <li class="destination"> - Jackson Park Service</li>
+                <div class="arrow-right">
+                  <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+                <li class="frequency1">N/A</li>
+              </ul>
           </div>
-        </div>
+          </div>
       <div class="direction">
-          <div class="heading">
-            <h1>Out of service</h1>
-            <h3>Line Destination Frequency</h3>
+          <div class="bus-information">
+            <h1>Out of Service</h1>
+              <ul>
+                <li class="bus-number">4</li>
+                <li class="destination"> - Cottage Grove</li>
+                <div class="arrow-right">
+                  <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+                <li class="frequency">Resumes 12:10am</li>
+              </ul>
+            </div>
           </div>
+      <div class="direction">
+        <div class="bus-information">
+          <h1>Out of Service</h1>
+              <ul>
+                <li class="bus-number">20</li>
+                <li class="destination"> - Madison</li>
+                <div class="arrow-right">
+                  <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+                <li class="frequency">Resumes 12:10am</li>
+              </ul>
         </div>
+      </div>
+      <div class="direction">
+        <div class="bus-information">
+          <h1>Out of Service</h1>
+          <ul>
+            <li class="bus-number">157</li>
+            <li class="destination"> - Streeterville/Taylor</li>
+            <div class="arrow-right">
+              <i class="fa fa-chevron-right fa-lg"></i>
+            </div>
+            <li class="frequency">Resumes 6:00am</li>
+          </ul>
+      </div>
+    </div>
     </section>
   </body>
 </html>
